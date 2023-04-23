@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h2 className="text-red-600">Hello World</h2>;
+import Button from "@/components/ui/Button";
+
+export default async function Home() {
+  return <Button>Hello</Button>;
 }
